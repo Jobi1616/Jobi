@@ -20,5 +20,12 @@ def update(id):
     return redirect("/")
 
 
-if  __name__:"__main__"
-app.run(debug=True , host="0.0.0.0")
+if  __name__=="__main__":
+    app.run(debug=True , host="0.0.0.0")
+
+
+print("hello world")    
+print("hello nature")
+print("hello creature")
+print("hello remedie")
+print("hello")
