@@ -43,7 +43,7 @@
                     <tr>
                         <th>sno</th>
                         <th>name</th>
-                        <th><address></address></th>
+                        <th>address</th>
                         <th>age</th>
                         <th>course</th>
                         <th>action</th>
@@ -73,7 +73,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <form action="/update/{{stud.sno}}"method="post">
+            <form action="/update/{{stud.}}"method="post">
                 <input class="form-control" type="text" placeholder="student name" required name="name" value="{{stud.name}}"
                     aria-label="default input example"><br>
                 <input class="form-control" type="text" placeholder="student age" required max="100" min="0" name="age"value="{{stud.age}}"
@@ -114,3 +114,4 @@
 </body>
 
 </html>
+
