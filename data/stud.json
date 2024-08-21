@@ -1,0 +1,25 @@
+{
+   "student": [
+      {
+         "sno": 1,
+         "name": "vijay",
+         "age": "16",
+         "address": "vembar",
+         "course": "python"
+      },
+      {
+         "sno": 2,
+         "name": "aswin",
+         "age": "17",
+         "address": "thoothukudi",
+         "course": "python"
+      },
+      {
+         "sno": 3,
+         "name": "rohan",
+         "age": "18",
+         "address": "tharuvaikulam",
+         "course": "python"
+      }
+   ]
+}
