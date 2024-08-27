@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4">
                 <div class="card" style="height: 31rem;">
                     <div class="card-body">
                         <h2 class="card-title text-center">Registration Module</h2><br>
@@ -73,7 +73,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <form action="/update/{{stud.}}"method="post">
+            <form action="/update/{{stud.sno}}"method="post">
                 <input class="form-control" type="text" placeholder="student name" required name="name" value="{{stud.name}}"
                     aria-label="default input example"><br>
                 <input class="form-control" type="text" placeholder="student age" required max="100" min="0" name="age"value="{{stud.age}}"
